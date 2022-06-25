@@ -1,0 +1,30 @@
+.canvas-wrap{
+    display: inline-block;
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+.highlighter {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 400px;
+}
+
+.selector{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 400px;
+}
+
+.drawer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 400px;
+}

@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>kd-tree</title>
+</head>
+<body>
+    <button type="button" id="random">add points at random</button><button type="button" id="build">build</button><button type="button" id="reset">reset</button>
+    <label for="speed">animation speed: </label><input type="range" id="speed" min="10" max="1000" value="100"></br>
+
+    <div class="canvas-wrap">
+        <canvas id="plane-highlighter" class="highlighter" width="400px" height="400px"></canvas>
+        <canvas id="plane-selector" class="selector" width="400px" height="400px"></canvas>
+        <canvas id="plane" class="drawer" width="400px" height="400px"></canvas>
+    </div> 
+
+    <div class="canvas-wrap">
+        <canvas id="tree-highlighter" class="highlighter"  width="400px" height="400px"></canvas>
+        <canvas id="tree-selector" class="selector" width="400px" height="400px"></canvas>
+        <canvas id="binary-tree" class="drawer"  width="400px" height="400px"></canvas>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
